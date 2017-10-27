@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mini guestbook</title>
+    </head>
+    <body>
+        <form action="{{ url_for('guestbook') }}" method="get">
+            Nome: <input type="text" name="name"> <input type="submit" value="Invia">
+        </form>
+    </body>
+</html>
